@@ -18,7 +18,9 @@ export default function Hero() {
         printer took a galley of type and scrambled it to make a type specimen
         book
       </p>
-      <Button text={"Accept & Begin"}></Button>
+      <Button func={()=>{
+        window.location.href='#generate'
+      }} text={"Accept & Begin"}></Button>
     </div>
   );
 }
